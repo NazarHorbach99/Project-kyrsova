@@ -1,0 +1,2491 @@
+body {
+    height: 100vh; /* Встановлює висоту сторінки в 100% від висоти вікна перегляду */
+    margin: 0; /* Видаляє зовнішні відступи */
+    overflow-x: hidden; /* Забороняє горизонтальний скролінг */
+    font-family: Nunito;
+    width: 1660px;
+
+}
+
+
+span{
+    font-size: 40px;
+    color: #F4AB00;
+}
+
+.bigred{
+    font-size: 5px;
+    color: red;
+}
+
+
+
+.header_fon1 {
+    width: 1660px;
+    margin-right: 0;
+    margin-left: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 967px;
+    flex-shrink: 0;
+    position: absolute;
+}
+
+.cube {
+    margin-top: 90px;
+    margin-left: 170px;
+    width: 1160px;
+    height: 94px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF;
+    position: relative;
+    z-index: 1;
+}
+
+.header-SEO {
+    width: 94px;
+    height: 17px;
+    flex-shrink: 0;
+    color: rgba(0, 0, 0, 1);
+    margin-left: 200px;
+    margin-top: 130px;
+    position: absolute;
+    z-index: 2;
+}
+
+.header_second {
+    width: 738px;
+    height: 530px;
+    flex-shrink: 0;
+    position: absolute;
+    margin-left: 750px;
+    margin-top: 220px;
+    z-index: 3;
+}
+
+
+.header_navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #232425;
+    font-family: "Adobe Caslon Pro";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    position: absolute;
+    z-index: 4;
+    margin-top: 110px;
+    margin-left: 500px;
+    display: inline-flex;
+    height: 44px;
+    padding: 10px 20.469px 10px 9.531px;
+    align-items: flex-start;
+    gap: 30px;
+    flex-shrink: 0;
+}
+
+.header_navigation ul {
+    list-style: none; /* Вилучення маркерів списку */
+    padding: 0;
+    margin: 0;
+    display: flex; /* Зробити список гнучким контейнером */
+}
+
+.header_navigation li {
+    margin-right: 30px; /* Збільште відступ між пунктами меню */
+    margin-top: 10px;   /* Додайте відступ зверху */
+    margin-bottom: 10px; /* Додайте відступ знизу */
+}
+
+.header_navigation a {
+    text-decoration: none;
+    color: #232425;
+}
+
+.header_button {
+    height: 41px;
+    flex-shrink: 0;
+    border-radius: 32px;
+    background: #F4AB00;
+    color: #FFF;
+    text-align: center;
+    font-family: Nunito;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px; /* 146.154% */
+    position: absolute;
+    z-index: 4;
+    margin-left: 1170px;
+    margin-top: 120px;
+    cursor: pointer;
+    border: none; /* Додайте цей рядок для видалення обводки */
+}
+
+
+header h1 {
+    color: #FFF;
+    font-family: Nunito;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 70px; /* 116.667% */
+    position: absolute;
+    z-index: 5;
+    margin-top: 270px;
+    margin-left: 170px;
+}
+
+header h2 {
+
+    color: #F4AB00;
+    font-family: Nunito;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 70px; /* 116.667% */
+    position: absolute;
+    z-index: 6;
+    margin-left: 170px;
+    margin-top: 340px;
+}
+
+header h3 {
+    color: #FFF;
+    font-family: Nunito;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 70px; /* 116.667% */
+    position: absolute;
+    z-index: 7;
+    margin-left: 170px;
+    margin-top: 390px;
+}
+
+header h4{
+    width: 409px;
+    color: #FFF;
+
+    font-family: Nunito;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px; /* 188.889% */
+    position: absolute;
+    z-index: 8;
+    margin-left: 170px;
+    margin-top: 500px;
+}
+
+.header_explore {
+
+    height: 52px;
+    flex-shrink: 0;
+    flex-shrink: 0;
+    border-radius: 32px;
+    background: #F4AB00;
+    color: #FFF;
+    text-align: center;
+    font-family: Nunito;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px; /* 146.154% */
+    position: absolute;
+    z-index: 4;
+    margin-left: 170px;
+    margin-top:650px;
+    cursor: pointer;
+    border: none; /* Додайте цей рядок для видалення обводки */
+    position: absolute;
+    z-index: 9;
+}
+
+.biliy {
+    width: 1000px;
+    height: 518px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 9px 9px 35px 0px rgba(56, 11, 113, 0.10);
+    position: absolute;
+    z-index: 10;
+    margin-top: 650px;
+    margin-left: 270px;
+}
+
+.text2 {
+    width: 393px;
+    color: #2C1258;
+    font-family: Nunito;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 56px;
+    position: absolute;
+    z-index: 11;
+    margin-top: 770px; /* Додайте властивість margin-top для тексту */
+    margin-left:330px; /* Додайте властивість margin-left для тексту */
+}
+.text3{
+    width: 470px;
+    color: #604B83;
+    font-family: Nunito;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px; /* 188.889% */
+    position: absolute;
+    z-index: 11;
+    margin-top: 900px;
+    margin-left: 330px;
+}
+.cartinka1{
+    width: 86px;
+    height: 86px;
+    flex-shrink: 0;
+    position: absolute;
+    z-index: 11;
+    margin-top: 780px;
+    margin-left: 840px;
+
+}
+.cartinka2{
+    width: 86px;
+    height: 86px;
+    flex-shrink: 0;
+    position: absolute;
+    z-index: 11;
+    margin-left: 840px;
+    margin-top: 950px;
+
+}
+.digital {
+    width: 153px;
+    color: #2C1258;
+    font-family: Montserrat;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 490;
+    line-height: 30px; /* 157.895% */
+    margin-top: 760px;
+    margin-left: 950px;
+    position: absolute;
+    z-index: 11;
+    white-space: nowrap; /* Запобігає переносу тексту на новий рядок */
+}
+.search{
+    width: 153px;
+    color: #2C1258;
+    font-family: Montserrat;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 460;
+    line-height: 30px; /* 157.895% */
+    margin-top: 920px;
+    margin-left: 950px;
+    position: absolute;
+    z-index: 11;
+    white-space: nowrap;
+}
+.textblock1{
+    width: 270px;
+    color: #604B83;
+    font-family: Nunito;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 186.667% */
+    position: absolute;
+    z-index: 11;
+    margin-top: 790px;
+    margin-left: 950px;
+}
+.textblock2{
+    width: 270px;
+    color: #604B83;
+    font-family: Nunito;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 186.667% */
+    position: absolute;
+    z-index: 11;
+    margin-top: 950px;
+    margin-left: 950px;
+}
+.laptop{
+    width: 552px;
+    height: 559px;
+    margin-top: 1300px;
+    margin-left: 70px;
+}
+
+.appear{
+    width: 490px;
+    color: #2C1258;
+    font-family: Nunito;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 56px; /* 133.333% */
+    margin-top: -550px;
+   margin-left: 700px;
+
+}
+
+.smal-appear {
+    width: 456px;
+    color: #604B83;
+    font-family: Nunito;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    margin-left: 700px;
+    margin-top: -30px;
+    line-height: 34px; /* 188.889% */
+    display: block; /* Зміни властивість display на block */
+}
+.service-menu {
+    width: 500px;
+    color: #2C1258;
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    column-count: 2;
+    column-gap: 20px;
+    margin-left: 650px;
+}
+
+.service-menu ul {
+    list-style-type: none; /* Вимикаємо стандартний маркер для списку */
+}
+
+.service-menu li::before {
+    content: '\2713'; /* Код символу галочки */
+    margin-right: 5px; /* Додатковий відступ між символом і текстом */
+}
+.numberr{
+    width: 555px;
+    height: 490px;
+    margin-top: 200px;
+    margin-left: 800px;
+}
+.numbers-title{
+    width: 480px;
+    color: #2C1258;
+    font-family: Nunito;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 56px; /* 133.333% */
+    margin-top: -150px;
+    margin-left: 150px;
+    position: absolute;
+    z-index: 12;
+}
+
+.numbers-secondary{
+    width: 535px;
+    color: #604B83;
+    font-family: Nunito;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px; /* 188.889% */
+    margin-top: -250px;
+    margin-left: 150px;
+}
+
+.background-numb{
+    width: 253px;
+    height: 114px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #F6F1FF;
+    margin-left: 150px;
+}
+.background-numb2{
+    width: 253px;
+    height: 114px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #F6F1FF;
+    margin-left: 30px;
+}
+.pick1{
+    width: 64px;
+    height: 64px;
+    flex-shrink: 0;
+    position: absolute;
+    z-index: 12;
+    margin-left: -520px;
+    margin-top: 27px;
+}.pick2{
+     width: 64px;
+     height: 64px;
+     flex-shrink: 0;
+     position: absolute;
+     z-index: 12;
+     margin-left: -230px;
+     margin-top: 27px;
+ }
+.number {
+    color: #2C1258;
+
+    font-family: Nunito;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    font-family: sans-serif;
+    margin-top: -35px;
+    margin-left: 280px;
+    position: absolute;
+    z-index: 13;
+
+}
+
+.numbersecond{
+    color: #2C1258;
+
+    font-family: Nunito;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    font-family: sans-serif;
+    margin-top: -35px;
+    margin-left: 560px;
+    position: absolute;
+    z-index: 13;
+}
+.protsent1{
+    color: #2C1258;
+    font-family: Nunito;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px; /* 128.571% */
+    margin-top: -35px;
+    margin-left: 345px;
+    position: absolute;
+    z-index: 13;
+}
+.protsent2{
+    color: #2C1258;
+    font-family: Nunito;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px; /* 128.571% */
+    position: absolute;
+    z-index: 13;
+    margin-top: -35px;
+    margin-left: 635px;
+}
+.satisfaction{
+    width: 81px;
+    color: #2C1258;
+    font-family: Nunito;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 186.667% */
+    margin-top: -48px;
+    margin-left: 280px;
+}
+
+.conversion{
+    width: 76px;color: #2C1258;
+    font-family: Nunito;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 186.667% */
+    margin-top: -45px;
+    margin-left: 565px;
+}
+
+.fon2 {
+    width: 100%;
+    height: 967px;
+    position: relative; /* Изменено свойство position на relative */
+    z-index: 14; /* Задано значение z-index для fon2 */
+    margin-top: 300px;
+}
+
+.kv-boxes1 {
+    width: 318px;
+    height: 286px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: #FFF;
+    position: absolute;
+    z-index: 15; /* Задано значение z-index для kv-fon (больше, чем для fon2) */
+    margin-top: -800px;
+    margin-left: 650px;
+}
+
+.poloskaup {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 115px;
+    z-index: 16; /* Задано значение z-index для poloskaup (если необходимо) */
+    margin-top: 2800px;
+}
+.kv-boxes2 {
+    width: 318px;
+    height: 286px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: #FFF;
+    position: absolute;
+    z-index: 16; /* Задано значение z-index для kv-fon (больше, чем для fon2) */
+    margin-top: -750px;
+    margin-left: 1000px;
+}
+.kv-boxes3 {
+    width: 318px;
+    height: 286px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: #FFF;
+    position: absolute;
+    z-index: 16; /* Задано значение z-index для kv-fon (больше, чем для fon2) */
+    margin-top: -400px;
+    margin-left: 1000px;
+}
+.kv-boxes4 {
+    width: 318px;
+    height: 286px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: #FFF;
+    position: absolute;
+    z-index: 15; /* Задано значение z-index для kv-fon (больше, чем для fon2) */
+    margin-top: -450px;
+    margin-left: 650px;
+}
+
+.m-title1{
+    width: 147px;
+    color: #2C1258;
+    font-family: Nunito;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 157.895% */
+    position: absolute;
+    z-index: 16;
+    margin-top: -780px;
+    margin-left: 740px;
+}
+.m-title2{
+    width: 147px;
+    color: #2C1258;
+    font-family: Nunito;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 157.895% */
+    position: absolute;
+    z-index: 16;
+    margin-top: -430px;
+    margin-left: 740px;
+}
+.m-title3{
+    width: 147px;
+    color: #2C1258;
+    font-family: Nunito;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 157.895% */
+    position: absolute;
+    z-index: 16;
+    margin-top: -730px;
+    margin-left: 1090px;
+}
+
+.m-title4{
+    width: 170px;
+    color: #2C1258;
+    font-family: Nunito;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 157.895% */
+    position: absolute;
+    z-index: 16;
+    margin-top: -380px;
+    margin-left: 1090px;
+}
+.m-subtitle1{
+    width: 244px;
+    color: #2C1258;
+    font-family: Nunito;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 157.895% */
+    position: absolute;
+    z-index: 16;
+    margin-top: -720px;
+    margin-left: 700px;
+}
+
+.m-subtitle2{
+    width: 244px;
+    color: #2C1258;
+    font-family: Nunito;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 157.895% */
+    position: absolute;
+    z-index: 16;
+    margin-top: -390px;
+    margin-left: 700px;
+}
+.m-subtitle3{
+    width: 244px;
+    color: #2C1258;
+    font-family: Nunito;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 157.895% */
+    position: absolute;
+    z-index: 16;
+    margin-top: -680px;
+    margin-left: 1050px;
+}
+.m-subtitle4{
+    width: 244px;
+    color: #2C1258;
+    font-family: Nunito;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 157.895% */
+    position: absolute;
+    z-index: 16;
+    margin-top: -340px;
+    margin-left: 1050px;
+}
+.m-important{
+    width: 302px;
+    color: #FFF;
+    font-family: Nunito;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 56px; /* 133.333% */
+    z-index: 17;
+    position: absolute;
+    margin-top: -700px;
+    margin-left: 150px;
+}
+.m-important2{
+    width: 433px;
+    color: #FFF;
+    font-family: Nunito;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px; /* 188.889% */
+    z-index: 17;
+    position: absolute;
+    margin-top: -550px;
+    margin-left: 150px;
+}
+.get{
+    width: 186px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 32px;
+    background: #F4AB00;
+    color: #FFF;
+    text-align: center;
+    font-family: Nunito;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px; /* 146.154% */
+    position: absolute;
+    z-index: 4;
+    margin-left: 200px;
+    margin-top: -400px;
+    cursor: pointer;
+    border: none; /* Додайте цей рядок для видалення обводки */
+    z-index: 18;
+    position: absolute;
+}
+.marketing-fon{
+    width: 580px;
+    height: 482px;
+    flex-shrink: 0;
+    margin-top: 400px;
+    margin-left: 750px;
+}
+.marketing-text1{
+
+    color: #2C1258;
+    font-family: Nunito;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 54px; /* 158.824% */
+    z-index: 18;
+    position: absolute;
+    margin-left: 200px;
+    margin-top: -500px;
+}
+.marketing-text2{
+width: 35vw;
+    color: #604B83;
+    font-family: Nunito;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px; /* 188.889% */
+    z-index: 18;
+    position: absolute;
+    margin-left: 200px;
+    margin-top: -400px;
+}
+.marketing-list{
+    width: 100vw;
+    color: #2C1258;
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+    z-index: 18;
+    position: absolute;
+    margin-top: -250px;
+    margin-left: 190px;
+}
+
+.spisok ul {
+    list-style-type: none; /* Вимикаємо стандартний маркер для списку */
+}
+
+.spisok li::before {
+    content: '\2713'; /* Код символу галочки */
+    margin-right: 5px; /* Додатковий відступ між символом і текстом */
+}
+.marketing-button{
+    width: 186px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 32px;
+    background: #F4AB00;
+    color: #FFF;
+    text-align: center;
+    font-family: Nunito;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px; /* 146.154% */
+    position: absolute;
+    z-index: 4;
+    margin-left: 30px;
+    margin-top: 50px;
+    cursor: pointer;
+    border: none; /* Додайте цей рядок для видалення обводки */
+    z-index: 19;
+    position: absolute;
+}
+
+.seo-fon{
+    width: 100%;
+    height: 967px;
+    position: relative; /* Изменено свойство position на relative */
+    z-index: 20; /* Задано значение z-index для fon2 */
+    margin-top: 300px;
+
+}
+.seo-title{
+    width: 60vw;
+    color: #FFF;
+    text-align: center;
+    font-family: Nunito;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 56px; /* 133.333% */
+    z-index: 20;
+    position: absolute;
+    margin-top: -800px;
+
+    margin-left: 280px;
+}
+
+.seo-secondary1{
+
+    color: #FFF;
+    text-align: center;
+    font-family: Nunito;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 150% */
+
+    z-index: 21;
+    position: absolute;
+    margin-top: -550px;
+    margin-left: 250px;
+}
+
+.seo-secondary2{
+    color: #FFF;
+    text-align: center;
+    font-family: Nunito;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 150% */
+
+    z-index: 21;
+    position: absolute;
+    margin-top: -550px;
+    margin-left:650px;
+}
+.seo-secondary3{
+    color: #FFF;
+    text-align: center;
+    font-family: Nunito;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 150% */
+
+    z-index: 21;
+    position: absolute;
+    margin-top: -550px;
+    margin-left:1000px;
+}
+.seo-material1{
+    color: #FFF;
+    text-align: center;
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+    width: 245px;
+    z-index: 21;
+    position: absolute;
+    margin-top: -500px;
+    margin-left: 200px;
+}
+.seo-material2{
+    color: #FFF;
+    text-align: center;
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+    width: 245px;
+    z-index: 21;
+    position: absolute;
+    margin-top: -500px;
+    margin-left: 600px;
+}
+.seo-material3{
+    color: #FFF;
+    text-align: center;
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+    width: 245px;
+    z-index: 21;
+    position: absolute;
+    margin-top: -500px;
+    margin-left: 950px;
+}
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 999; /* Встановіть високий z-index */
+}
+
+#get {
+    width: 186px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 32px;
+    background: #F4AB00;
+    color: #FFF;
+    text-align: center;
+    font-family: Nunito;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px; /* 146.154% */
+    position: absolute;
+    z-index: 18;
+    margin-left: 200px;
+    margin-top: -400px;
+    cursor: pointer;
+    border: none;
+}
+
+#get:hover {
+    background-color: #45a049; /* Темно-зелений колір при наведенні миші */
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover {
+    color: black;
+}
+.modaltext{
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+}
+.modaltext2{
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+.imgmodal{
+    width: 150px;
+    height: 150px;
+    margin-top: -140px;
+    position: absolute;
+}
+.pricelist-fon{
+    width: 100%;
+    height: 967px;
+    position: relative; /* Изменено свойство position на relative */
+    z-index: 20; /* Задано значение z-index для fon2 */
+    margin-top: 300px;
+}
+
+.pricelist-title{
+    width: 265px;
+    color: #FFF;
+    font-family: Nunito;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 56px; /* 147.368% */
+    z-index: 21;
+    position: relative;
+    margin-top: -850px;
+    margin-left: 580px;
+}
+
+.pricelist-boxes1{
+    width: 360px;
+    height: 710px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: #FFF;
+    box-shadow: 0px 15px 30px 0px rgba(255, 255, 255, 0.04);
+    z-index: 22;
+    position: absolute;
+    margin-left: 100px;
+}
+.pricelist-boxes2{
+    width: 360px;
+    height: 710px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: #FFF;
+    box-shadow: 0px 15px 30px 0px rgba(255, 255, 255, 0.04);
+    z-index: 22;
+    position: absolute;
+    margin-left:530px;
+}
+.pricelist-boxes3{
+    width: 360px;
+    height: 710px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: #FFF;
+    box-shadow: 0px 15px 30px 0px rgba(255, 255, 255, 0.04);
+    z-index: 22;
+    position: absolute;
+    margin-left:930px;
+}
+.pricelist-cost1{
+    color: #5B25B3;
+    width: 90px;
+    font-family: Nunito;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px; /* 72% */
+    z-index: 23;
+    position: absolute;
+    margin-left: 190px;
+    margin-top: 50px;
+}
+.pricelist-cost2{
+    color: #5B25B3;
+    width: 90px;
+    font-family: Nunito;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px; /* 72% */
+    z-index: 23;
+    position: absolute;
+    margin-left: 620px;
+    margin-top: 50px;
+}
+.pricelist-cost3{
+    color: #5B25B3;
+    width: 90px;
+    font-family: Nunito;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px; /* 72% */
+    z-index: 23;
+    position: absolute;
+    margin-left: 1010px;
+    margin-top: 50px;
+}
+.sumbol1{
+    color: #5B25B3;
+    font-family: Nunito;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 130% */
+    width: 17px;
+    z-index: 23;
+    position: absolute;
+    margin-left: 170px;
+    margin-top: 30px;
+}
+.sumbol2{
+    color: #5B25B3;
+    font-family: Nunito;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 130% */
+    width: 17px;
+    z-index: 23;
+    position: absolute;
+    margin-left: 600px;
+    margin-top: 30px;
+}
+.sumbol3{
+    color: #5B25B3;
+    font-family: Nunito;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 130% */
+    width: 17px;
+    z-index: 23;
+    position: absolute;
+    margin-left: 990px;
+    margin-top: 30px;
+}
+
+.month1{
+    color: #5B25B3;
+    width: 107px;
+    font-family: Nunito;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 130% */
+    z-index: 23;
+    position: absolute;
+    margin-left: 270px;
+    margin-top: 80px;
+}
+.month2{
+    color: #5B25B3;
+    width: 107px;
+    font-family: Nunito;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 130% */
+    z-index: 23;
+    position: absolute;
+    margin-left: 700px;
+    margin-top: 80px;
+}
+.month3{
+    color: #5B25B3;
+    width: 107px;
+    font-family: Nunito;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 130% */
+    z-index: 23;
+    position: absolute;
+    margin-left: 1080px;
+    margin-top: 80px;
+}
+.pricelist-menu {
+    width: 250px;
+    color: #604B83;
+    font-family: Nunito;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3; /* Наприклад, можна вказати 1.5 для відступу в полтора рази від висоти шрифту */
+    z-index: 23;
+    position: absolute;
+    margin-left: 150px;
+    margin-top: 150px;
+
+    /* Розтягнення списку */
+    width: 100%;
+
+    /* Видалення синього виділення */
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+
+    /* Заміна крапочок на галочки у списку */
+    list-style: none;
+}
+
+.pricelist-menu li::before {
+    content: "\2713"; /* Unicode для галочки */
+    color: #5B25B3; /* Колір галочки */
+    font-size: 1.2em; /* Розмір галочки */
+    margin-right: 5px; /* Відступ між галочкою і текстом */
+}
+
+.pricelist-menu li.galochka::before {
+    content: "\2713"; /* Unicode для галочки */
+    color: #5B25B3; /* Колір галочки */
+    font-size: 1.2em; /* Розмір галочки */
+    margin-right: 5px; /* Відступ між галочкою і текстом */
+}
+
+.pricelist-menu li:last-child.galochka::before,
+.pricelist-menu li:nth-last-child(2).galochka::before {
+    content: none; /* Відсутність галочки на останніх двох елементах з класом 'galochka' */
+}
+
+
+.pricelist-menu2 {
+    width: 250px;
+    color: #604B83;
+    font-family: Nunito;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3; /* Наприклад, можна вказати 1.5 для відступу в полтора рази від висоти шрифту */
+    z-index: 23;
+    position: absolute;
+    margin-left: 580px;
+    margin-top: 150px;
+
+    /* Розтягнення списку */
+    width: 100%;
+
+    /* Видалення синього виділення */
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+
+    /* Заміна крапочок на галочки у списку */
+    list-style: none;
+}
+
+.pricelist-menu2 li::before {
+    content: "\2713"; /* Unicode для галочки */
+    color: #5B25B3; /* Колір галочки */
+    font-size: 1.2em; /* Розмір галочки */
+    margin-right: 5px; /* Відступ між галочкою і текстом */
+}
+
+.pricelist-menu2 li {
+    list-style-type: none; /* Приховання крапочок перед галочками */
+}
+.pricelist-menu3 {
+    width: 250px;
+    color: #604B83;
+    font-family: Nunito;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3; /* Наприклад, можна вказати 1.5 для відступу в полтора рази від висоти шрифту */
+    z-index: 23;
+    position: absolute;
+    margin-left: 980px;
+    margin-top: 150px;
+
+    /* Розтягнення списку */
+    width: 100%;
+
+    /* Видалення синього виділення */
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+
+    /* Заміна крапочок на галочки у списку */
+    list-style: none;
+}
+
+.pricelist-menu3 li::before {
+    content: "\2713"; /* Unicode для галочки */
+    color: #5B25B3; /* Колір галочки */
+    font-size: 1.2em; /* Розмір галочки */
+    margin-right: 5px; /* Відступ між галочкою і текстом */
+}
+
+.pricelist-menu3 li {
+    list-style-type: none; /* Приховання крапочок перед галочками */
+}
+
+.pricelist-button1 {
+    width: 186px;
+    height: 52px;
+    flex-shrink: 0;
+    flex-shrink: 0;
+    border-radius: 32px;
+    background: #F4AB00;
+    color: #FFF;
+    text-align: center;
+    font-family: Nunito;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px; /* 146.154% */
+    position: absolute;
+    z-index: 4;
+    margin-left: 170px;
+    margin-top:600px;
+    cursor: pointer;
+    border: none; /* Додайте цей рядок для видалення обводки */
+    position: absolute;
+    z-index: 23;
+}
+.pricelist-button2 {
+    width: 186px;
+    height: 52px;
+    flex-shrink: 0;
+    flex-shrink: 0;
+    border-radius: 32px;
+    background: #F4AB00;
+    color: #FFF;
+    text-align: center;
+    font-family: Nunito;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px; /* 146.154% */
+    position: absolute;
+    z-index: 4;
+    margin-left: 610px;
+    margin-top:600px;
+    cursor: pointer;
+    border: none; /* Додайте цей рядок для видалення обводки */
+    position: absolute;
+    z-index: 23;
+}
+.pricelist-button3 {
+    width: 186px;
+    height: 52px;
+    flex-shrink: 0;
+    flex-shrink: 0;
+    border-radius: 32px;
+    background: #F4AB00;
+    color: #FFF;
+    text-align: center;
+    font-family: Nunito;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px; /* 146.154% */
+    position: absolute;
+    z-index: 4;
+    margin-left: 1010px;
+    margin-top:600px;
+    cursor: pointer;
+    border: none; /* Додайте цей рядок для видалення обводки */
+    position: absolute;
+    z-index: 23;
+}
+
+/* Додайте ці стилі в файл style.css */
+.swiper-container {
+    padding-top: 1700px; /* Збільште висоту для розташування контейнера ззаду */
+    position: relative;
+    z-index: 24;
+}
+
+.swiper-slide {
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide p {
+    color: #604B83;
+    width: 703px;
+    flex-shrink: 0;
+    text-align: center;
+    font-family: Nunito;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 43.2px; /* 180% */
+    margin-left: 400px;
+    margin-top: -700px;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    color: #fff;
+    font-size: 18px;
+    position: absolute;
+    z-index: 24;
+    top: 50%; /* Переносимо кнопки ближче до верхнього краю слайдера */
+    transform: translateY(-50%); /* Центруємо вертикально відносно слайдера */
+}
+
+.swiper-button-next {
+    right: 10px; /* Розташуйте кнопку вправо */
+}
+
+.swiper-button-prev {
+    left: 10px; /* Розташуйте кнопку вліво */
+}
+
+.mainslider{
+    color: #2C1258;
+    width: 380px;
+    text-align: center;
+    font-family: Nunito;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 56px; /* 133.333% */
+    letter-spacing: 1px;
+    position: absolute;
+    z-index: 24;
+    margin-top: 800px;
+    margin-left: 570px;
+}
+.skobka{
+    width: 34px;
+    height: 28px;
+    flex-shrink: 0;
+    position: absolute;
+    z-index: 24;
+    margin-top: 900px;
+    margin-left: 750px;
+}
+
+.swiper-logo{
+    width: 1160px;
+    height: 251px;
+    flex-shrink: 0;
+    margin-top: -450px;
+    margin-left: 90px;
+}
+
+.studies-fon{
+    background: #E5D8FA;
+    width: 1550px;
+    height: 974px;
+    flex-shrink: 0;
+    margin-top: 50px;
+    position: relative;
+    z-index: 1;
+}
+.studies-title{
+    width: 410px;
+    color: #2C1258;
+    font-family: Nunito;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 56px;
+    position: absolute;
+    z-index: 2;
+    margin-top: -900px;
+    margin-left: 550px;
+}
+.studies-content{
+    width: 394px;
+    color: #604B83;
+    font-family: Nunito;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px; /* 188.889% */
+    position: absolute;
+    z-index: 2;
+    margin-top: -830px;
+    margin-left: 550px;
+}
+
+.picture1{
+    width: 376px;
+    height: 288px;
+    flex-shrink: 0;
+    position: absolute;
+    z-index: 3;
+    margin-top: -700px;
+    margin-left: 130px;
+}
+.picture2{
+    width: 376px;
+    height: 288px;
+    flex-shrink: 0;
+    position: absolute;
+    z-index: 3;
+    margin-top: -700px;
+    margin-left: 550px;
+}
+.picture3{
+    width: 376px;
+    height: 288px;
+    flex-shrink: 0;
+    position: absolute;
+    z-index: 3;
+    margin-top: -700px;
+    margin-left: 970px;
+}
+.studies-boxes1{
+    display: flex;
+    width: 376px;
+    padding: 61.922px 35px 28.078px 36px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 3;
+    margin-top: -480px;
+    margin-left: 94px;
+}
+.studies-boxes2{
+    display: flex;
+    width: 376px;
+    padding: 61.922px 35px 28.078px 36px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 3;
+    margin-top: -480px;
+    margin-left: 514px;
+}
+.studies-boxes3{
+    display: flex;
+    width: 376px;
+    padding: 61.922px 35px 28.078px 36px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 3;
+    margin-top: -480px;
+    margin-left: 935px;
+}
+.darkfon{
+    width: 1550px;
+    height: 310px;
+    flex-shrink: 0;
+    position: relative;
+    z-index: 1;
+}
+.mainzagolovok{
+    color: #FFF;
+    width: 232px;
+    font-family: Nunito;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 56px; /* 133.333% */
+    position: absolute;
+    z-index: 2;
+    margin-top: -200px;
+    margin-left: 650px;
+}
+.pidzagolovok{
+    color: #FFF;
+    width: 357px;
+    text-align: center;
+    font-family: Nunito;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px; /* 188.889% */
+    position: absolute;
+    z-index: 2;
+    margin-top: -130px;
+    margin-left: 580px;
+}
+.footer-image1{
+    width: 367px;
+    height: 283px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: #FFF;
+    box-shadow: 0px 15px 30px 0px rgba(0, 0, 0, 0.07);
+    position: absolute;
+    z-index: 3;
+    margin-left: 150px;
+    margin-top: -70px;
+}
+.footer-image2{
+    width: 367px;
+    height: 283px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: #FFF;
+    box-shadow: 0px 15px 30px 0px rgba(0, 0, 0, 0.07);
+    position: absolute;
+    z-index: 3;
+    margin-left: 550px;
+    margin-top: -70px;
+}
+.footer-image3{
+    width: 367px;
+    height: 283px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: #FFF;
+    box-shadow: 0px 15px 30px 0px rgba(0, 0, 0, 0.07);
+    position: absolute;
+    z-index: 3;
+    margin-left: 950px;
+    margin-top: -70px;
+}
+
+.footer-title1{
+    color: #2C1258;
+    text-align: center;
+    font-family: Nunito;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 150% */
+    width: 77px;
+    position: absolute;
+    z-index: 4;
+    margin-left:280px;
+    margin-top: -40px;
+}
+
+.footer-title2{
+    color: #2C1258;
+    text-align: center;
+    font-family: Nunito;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 150% */
+    width: 77px;
+    position: absolute;
+    z-index: 4;
+    margin-left:700px;
+    margin-top: -40px;
+}
+.footer-title3{
+    color: #2C1258;
+    text-align: center;
+    font-family: Nunito;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 150% */
+    width: 77px;
+    position: absolute;
+    z-index: 4;
+    margin-left:1090px;
+    margin-top: -40px;
+}
+.footer-content1{
+    color: #604B83;
+    text-align: center;
+    font-family: Nunito;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 186.667% */
+    width: 199px;
+    position: absolute;
+    z-index: 5;
+    margin-left: 230px;
+}
+
+.footer-content2{
+    color: #604B83;
+    text-align: center;
+    font-family: Nunito;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 186.667% */
+    width: 199px;
+    position: absolute;
+    z-index: 5;
+    margin-left: 630px;
+}
+.footer-content3{
+    color: #604B83;
+    text-align: center;
+    font-family: Nunito;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 186.667% */
+    width: 199px;
+    position: absolute;
+    z-index: 5;
+    margin-left: 1030px;
+}
+
+.form-man{
+    width: 496px;
+    height: 709px;
+    flex-shrink: 0;
+    margin-top: 300px;
+}
+.form-title{
+    color: #2C1258;
+    font-family: Nunito;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 56px; /* 133.333% */
+    width: 254px;
+    position: absolute;
+    z-index: 5;
+    margin-top: -650px;
+    margin-left: 800px;
+}
+.form-content{
+    color: #604B83;
+    font-family: Nunito;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px; /* 188.889% */
+    width: 552px;
+    position: absolute;
+    z-index: 5;
+    margin-top: -570px;
+    margin-left: 800px;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.form-end {
+    margin-left: 800px;
+    margin-top: -420px;
+}
+
+
+@media (min-width: 889px) and (max-width: 1530px) {
+   .marketing-text2{
+       width: 40vw;
+   }
+    .header_navigation {
+        margin-left: 250px;
+    }
+    .header-SEO {
+        margin-left: 100px;
+    }
+    .cube {
+        margin-left: 80px;
+        width: 1000px;
+    }
+    .header_button {
+        margin-left: 900px;
+    }
+    .header_second{
+        margin-left: 590px;
+        width: 638px;
+        height: 430px;
+    }
+    .content-block {
+        margin-left: -100px;
+    }
+    .numberr {
+        margin-left: 700px;
+    }
+    .modalka-content {
+        margin-left: -100px;
+    }
+    .marketing-fon {
+        margin-left: 640px;
+    }
+    .pricelist {
+        margin-left: -70px;
+    }
+
+    .swiper-container {
+        width: 1250px;
+        height: 430px;
+    }
+    .swiper-logo {
+        margin-left: -35px;
+    }
+    .studies {
+        margin-left: -100px;
+    }
+    .getintouch {
+        margin-left: -100px;
+    }
+    .textfooter {
+        margin-left: -100px;
+    }
+    .form-content {
+        margin-left: 700px;
+    }
+    .form-title {
+        margin-left: 700px;
+    }
+    .form-end {
+        margin-left: 700px;
+    }
+    .seo-title{
+        margin-left: 50vw;
+    }
+}
+
+@media (min-width: 773px) and (max-width: 888px) {
+    .seo-title{
+        margin-left: 60vw;
+    }
+    .header_navigation{
+        margin-left: 250px;
+    }
+    .cube{
+        margin-left:40px;
+        width: 950px;
+    }
+    .header-SEO{
+        margin-left: 90px;
+    }
+    .headertext{
+        margin-left: -80px;
+    }
+    .header_explore{
+      margin-left: 80px;
+    }
+    .header_button{
+        margin-left: 830px;
+    }
+    .header_second{
+        margin-left: 550px;
+        margin-top: 270px;
+        width: 450px;
+        height: 300px;
+    }
+
+    .content-block{
+        margin-left: -260px;
+
+    }
+    .biliy{
+        width: 700px;
+        height: 400px;
+        margin-left: 400px;
+        position: absolute;
+        z-index: 1;
+    }
+    .text2{
+        color: #2C1258;
+        width: 300px;
+        font-size: 32px;
+        ont-style: normal;
+        font-weight: 500;
+        line-height: 56px; /* 133.333% */
+        margin-left: 440px;
+        position: absolute;
+        z-index: 2;
+        margin-top: 700px;
+    }
+    .text3 {
+        width: 350px;
+        color: #604B83;
+        font-family: Nunito;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 34px;
+        margin-top: 830px;
+        margin-left: 430px;
+    }
+    .cartinka1 {
+        width: 50px;
+        height: 50px;
+        flex-shrink: 0;
+        margin-top: 720px;
+        margin-left: 750px;
+    }
+    .cartinka2 {
+        width: 50px;
+        height: 50px;
+        flex-shrink: 0;
+        margin-left: 780px;
+        margin-top: 820px;
+    }
+    .digital {
+        width: 153px;
+        color: #2C1258;
+        font-family: Montserrat;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 490;
+        line-height: 30px;
+        margin-top: 720px;
+        margin-left: 820px;
+        white-space: nowrap;
+    }
+    .search {
+        width: 153px;
+        color: #2C1258;
+        font-family: Montserrat;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 460;
+        line-height: 30px;
+        margin-top: 820px;
+        margin-left: 850px;
+        white-space: nowrap;
+    }
+    .textblock1 {
+        width: 240px;
+        color: #604B83;
+        font-family: Nunito;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px;
+        margin-top:740px;
+        margin-left: 820px;
+    }
+    .textblock2 {
+        width: 220px;
+        color: #604B83;
+        font-family: Nunito;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px;
+        margin-top:840px;
+        margin-left: 850px;
+    }
+    .service-page{
+        margin-left: -190px;
+    }
+    .laptop{
+    margin-left: 140px;
+    }
+    .numbers-section{
+    margin-left: -130px;
+    margin-top: 200px;
+    }
+    .numberr{
+        margin-left: 680px;
+        width: 400px;
+        height: 340px;
+    }
+    .modalka-content{
+        margin-left: -120px;
+    }
+    .modalka-boxes{
+        margin-left: -210px;
+    }
+    .m-important2{
+        width: 280px;
+        margin-top: -580px;
+    }
+    .modalka-text{
+        margin-left: -210px;
+    }
+    .marketing{
+        margin-left: -160px;
+    }
+    .seo-block{
+        margin-left: -180px;
+    }
+    .pricelist{
+        margin-left: -40px;
+        transform: scale(0.8); /* Зменшення масштабу на 80% */
+        transform-origin: left;
+    }
+    .slider{
+        margin-left: -220px;
+    }
+    .swiper-logo{
+        transform: scale(0.8);
+    }
+    .studies{
+        margin-left: -260px;
+        transform: scale(0.8);
+    }
+    .getintouch{
+        margin-left: -220px;
+        position: relative;
+        z-index: 1;
+    }
+    .textfooter{
+        margin-left: -60px;
+        transform: scale(0.8);
+        position: absolute;
+        z-index: 2;
+    }
+    .form{
+        margin-left: -60px;
+        transform: scale(0.8);
+        position: relative;
+        z-index: 2;
+    }
+    .form-end{
+        margin-left: 550px;
+        position: absolute;
+        z-index: 3;
+    }
+    .form-text{
+        margin-left: -220px;
+    }
+}
+
+
+
+@media (min-width: 555px) and (max-width: 772px) {
+    .seo-title {
+        margin-left: 95vw;
+    }
+    .marketing-text2{
+        width: 53vw;
+    }
+    .h1, .h2, .h3 {
+        font-size: 45px;
+        height: auto;
+        display: flex;
+        flex-shrink: 0;
+        margin-left: 10%;
+
+    }
+
+    .h4{
+        width: 70%; /* Змінюємо ширину відносно ширини вікна */
+        height: auto;
+        display: flex;
+        flex-shrink: 0;
+        display: inline-flex;
+        margin-left: 10%;
+    }
+
+    .cube {
+        width: 110vw;
+        height: 94px;
+        flex-shrink: 0;
+        margin-left: 3%; /* Змінено значення на 0 або auto */
+    }
+
+    .header_navigation {
+        width: 200vw;
+        font-size: 13px;
+        display: flex;
+        justify-content: space-between;
+        color: #232425;
+        font-family: "Adobe Caslon Pro";
+        font-style: normal;
+        font-weight: 400;
+        margin-top: 110px;
+        margin-left: 10vw;
+        display: inline-flex;
+        height: 44px;
+        padding: 10px 20.469px 10px 9.531px;
+        align-items: flex-start;
+        flex-shrink: 0;
+    }
+
+    .header_navigation li {
+        margin-right: calc(7px + 5vw); /* 10px plus 2% of viewport width */
+    }
+
+    .header_navigation a {
+        text-decoration: none;
+        color: #232425;
+    }
+
+
+    .header_explore {
+
+        height: 52px;
+        flex-shrink: 0;
+        border-radius: 32px;
+        background: #F4AB00;
+        color: #FFF;
+        text-align: center;
+        font-family: Nunito;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 19px; /* 146.154% */
+        margin-left: 30%;
+        margin-top:650px;
+        cursor: pointer;
+        border: none; /* Додайте цей рядок для видалення обводки */
+
+    }
+
+
+
+    .header_button {
+        height: 41px;
+        flex-shrink: 0;
+        border-radius: 32px;
+        background: #F4AB00;
+        color: #FFF;
+        text-align: center;
+        font-family: Nunito;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 19px; /* 146.154% */
+        position: absolute;
+        z-index: 4;
+        margin-left: 100%; /* Змінено значення на 0 або auto */
+        margin-top: 120px;
+        cursor: pointer;
+        border: none;
+    }
+
+    .header-SEO {
+        display: none;
+    }
+    .header_second{
+        width: 350px;
+        height: 250px;
+        margin-left: 70vw;
+        margin-top: 35vw;
+    }
+
+    .content-block {
+        transform: scale(0.6);
+        margin-left: -10%; /* або інша відсоткова або відносна одиниця */
+        margin-top: 25%;
+        position: absolute;
+        z-index: 1;
+
+    }
+    .service-page{
+        transform: scale(0.6);
+        margin-left: -23%; /* або інша відсоткова або відносна одиниця */
+        margin-top:100px;
+        position: relative;
+        z-index: 2;
+    }
+
+    .numbers-section{
+    margin-top: -300px;
+                }
+
+    .modalka-content{
+        transform: scale(0.6);
+        margin-left: -30%;
+    }
+    .modalka-window{
+        transform: scale(0.6);
+    }
+    .marketing{
+        transform: scale(0.6);
+        margin-left: -32%;
+        margin-top: -350px;
+    }
+    .seo-block{
+        transform: scale(0.6);
+        margin-left: -30%;
+        margin-top: -350px;
+    }
+    .pricelist{
+        transform: scale(0.6);
+        margin-left: -28%;
+        margin-top: -350px;
+    }
+    .slider{
+        transform: scale(0.6);
+        margin-left: -28%;
+        margin-top: -300px;
+    }
+    .studies{
+        transform: scale(0.57);
+        margin-left: -31%;
+        margin-top: -300px;
+    }
+    .getintouch{
+        transform: scale(0.6);
+        margin-left: -31%;
+    }
+    .textfooter{
+        transform: scale(0.6);
+        margin-left: -31%;
+        margin-top: -60px;
+    }
+    .form{
+        transform: scale(0.6);
+        margin-left: -33%;
+    }
+    .form-image{
+        margin-left: 10%;
+    }
+    .form-end{
+        margin-left: 310px;
+        transform: scale(0.7);
+        margin-top: -480px;
+    }
+    .studies-fon{
+        width: 100%;
+    }
+    .darkfon{
+        width: 100%;
+    }
+}
+
+
+@media (min-width: 319px) and (max-width: 554px) {
+    body {
+        overflow-x: hidden; /* Заборона горизонтального скролінгу */
+    }
+
+    .modalka-window {
+        display: block; /* Set to the desired display property, e.g., block or flex */
+        opacity: 1;
+        margin-top: -200px;
+    }
+
+    .modalka-boxes {
+        display: none;
+    }
+
+    .header_navigation {
+        display: none;
+    }
+
+    .header_second {
+        display: none;
+    }
+
+    .content-block {
+        display: none;
+    }
+
+    .service-text {
+        display: none;
+    }
+
+    .service-menu {
+        display: none;
+    }
+
+    .numeric-image {
+        display: none;
+    }
+
+    .modalka-title {
+        display: none;
+    }
+
+    .modalka-subtitle {
+        display: none;
+    }
+
+    .h1 {
+        font-size: 35px;
+        height: auto;
+        display: flex;
+        flex-shrink: 0;
+        margin-left: 25%; /* Змінюємо лівий відступ */
+        /* Додайте додаткові стилі за необхідності */
+    }
+
+    .header_explore {
+        margin-left: 60px;
+    }
+
+    .h2 {
+        font-size: 35px; /* Змінюємо ширину відносно ширини вікна */
+        height: auto;
+        display: flex;
+        flex-shrink: 0;
+        display: inline-flex;
+        margin-left: 25%;
+
+    }
+
+    .h3 {
+        font-size: 35px; /* Змінюємо ширину відносно ширини вікна */
+        height: auto;
+        display: flex;
+        flex-shrink: 0;
+        display: inline-flex;
+        margin-left: 25%;
+    }
+
+    .h4 {
+        width: 100%; /* Змінюємо ширину відносно ширини вікна */
+        height: auto;
+        display: flex;
+        flex-shrink: 0;
+        display: inline-flex;
+        margin-left: 25%;
+    }
+
+    .container-photo {
+        display: flex;
+        align-items: center;
+    }
+
+    .cube {
+        width: 80vw;
+        height: 70px;
+        flex-shrink: 0;
+        margin-left: 5%;
+    }
+
+    .header-SEO {
+        width: 200px;
+        height: 40px;
+        flex-shrink: 0;
+        margin-left: 35%;
+        margin-top: 21%;
+        display: flex; /* Додайте це */
+        /*align-items: center; !* Змініть це на center, якщо це те, що вам потрібно *!*/
+    }
+
+    .header_explore {
+        width: 40vw; /* Змінюємо ширину відносно ширини вікна */
+        height: 10vw;
+        display: grid;
+        place-items: center;
+        flex-shrink: 0;
+
+        margin-left: 25%;
+
+    }
+
+    .laptop {
+        transform: scale(0.6);
+        height: auto;
+        display: flex;
+        flex-shrink: 0;
+        display: inline-flex;
+        position: relative;
+        margin-top: 45%;
+        margin-left: -33px;
+
+    }
+
+    .numbers-section {
+        margin-top: 10%;
+        transform: scale(0.8);
+        margin-left: -40vw;
+
+    }
+
+    .numbers-title {
+        width: 70vw; /* Змінюємо ширину відносно ширини вікна */
+        height: auto;
+        display: flex;
+        flex-shrink: 0;
+        margin-left: 10%; /* Змінюємо лівий відступ */
+        /* Додайте додаткові стилі за необхідності */
+        margin-bottom: 60px;
+        position: relative;
+    }
+
+    .numbers-secondary {
+        width: 70vw; /* Змінюємо ширину відносно ширини вікна */
+        height: auto;
+        display: flex;
+        flex-shrink: 0;
+        margin-left: 10%; /* Змінюємо лівий відступ */
+        margin-top: 2%;
+        /* Додайте додаткові стилі за необхідності */
+        margin-bottom: 60px;
+        position: relative;
+    }
+
+    .numbers-container {
+        margin-left: -15%;
+        transform: scale(0.7);
+    }
+
+    .m-important {
+        width: 100vw; /* Змінюємо ширину відносно ширини вікна */
+        height: auto;
+        display: flex;
+        flex-shrink: 0;
+        margin-left: 20%;
+        place-items: center;
+    }
+
+    .m-important2 {
+        width: 60vw; /* Змінюємо ширину відносно ширини вікна */
+        height: auto;
+        display: flex;
+        flex-shrink: 0;
+        margin-left: 20%;
+        place-items: center;
+        position: absolute;
+    }
+
+    .modalka-button {
+        width: 40vw; /* Змінюємо ширину відносно ширини вікна */
+        height: 10vw;
+        display: grid;
+        place-items: center;
+        flex-shrink: 0;
+        margin-top: 70px;
+        margin-left: 10%;
+        position: absolute;
+
+    }
+
+
+    .marketing-text {
+        width: 150vw;
+        color: #2C1258;
+        font-family: Nunito;
+        font-size: 34px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 54px; /* 158.824% */
+        z-index: 18;
+        position: absolute;
+        margin-left: -130px;
+        margin-top: -100px;
+
+    }
+
+    .marketing-text2 {
+        width: 60vw;
+    }
+
+    .marketing-list {
+        margin-left: 10vw;
+    }
+
+    .seo-title {
+        margin-left: 160vw;
+    }
+
+    .seo-block {
+        transform: scale(0.4);
+        margin-left: -770px;
+    }
+
+    .pricelist {
+        display: none;
+    }
+
+    .slider {
+        transform: scale(0.6);
+        margin-left: -195vw;
+        display: none;
+    }
+
+    .studies {
+        transform: scale(1, 1);
+        margin-left: -144vw;
+        display: none;
+    }
+
+    .getintouch {
+        margin-left: -350px;
+    }
+
+    .textfooter {
+        display: none;
+    }
+
+    .form-man {
+        width: 290px;
+        height: 400px;
+    }
+
+    .form-text{
+        margin-left: -700px;
+        font-size: 12px;
+    }
+}
+
+
+
+
